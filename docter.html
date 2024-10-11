@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet">
+    <link rel="stylesheet" href="css/docter.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div id="aa">
+    <div id="main1">
+        <div class="logo">
+            <img src="img/logo.jpg" alt="logo" width="70px" height="70px" style="border-radius: 50%;">
+         
+            <h2>
+                
+                <span class="danger" style="margin-left: 5px; margin-top: 5px;">M Hospit</span>
+            </h2>
+            <div class="close" id="close-btn">
+                <span class="material-icons-sharp"> close</span>
+            </div>
+        </div>
+        <h1 class="analyse">Docter</h1>
+        <div id="dark-rigth">
+          
+            <button id="dark_mode">
+                <span class="material-icons-sharp" id="dark1">
+                    dark_mode
+                    </span>
+                    
+             
+            </button>
+            <button id="ligth_mode" >
+                <span class="material-icons-sharp" id="light1">
+                    light_mode
+                    </span>
+            </button> 
+          
+        </div>
+    </div>
+
+    <div id="container">
+      <div class="sidebar">
+                        <a href="#">
+                            <span class="material-icons-sharp">
+                                dashboard
+                            </span>
+                            <h3 class="text_dash">Dashbord</h3>
+                        </a>
+                        <a href="#">
+                            <span class="material-icons-sharp" style="position: relative; top: -20px;">
+                                    person_outline
+                                </span>
+                                <h3 class="text_dash" style="position: relative; top: -70px;" id="user"> Users </h3>
+                            </a>
+                          
+                            <a href="#" >
+                                <span class="material-icons-sharp" style="position: relative; top: -60px;">
+                                    mail_outline
+                                </span>
+                                <h3 class="text_dash" style="position: relative; top: -110px;">Tickets</h3>
+                            <span class="message-count" style="position: relative; top: -165px; left: 160px; background-color: red;">27</span>
+                            </a>
+
+                            <a href="#">
+                                <span class="material-icons-sharp" style="position: relative; top: -100px; left: -0px;">
+                                    settings
+                                </span>
+                                <h3 class="text_dash" style="position: relative; top: -150px;">Setting</h3>
+                            </a>
+                            <a href="#">
+                                <span class="material-icons-sharp" style="position: relative; top: -130px; left: 30px;">
+                                    add
+                                </span>
+                                <h3 class="text_dash" style="position: relative; top: -180px;">New Login</h3>
+                            </a>
+                            <a href="registrationform.html">
+                                <span class="material-icons-sharp" style="margin-left: 10px;">
+                                    logout
+                                </span>
+                                <h3 style="margin-left: 100px; margin-top: -8px;">Logout</h3>
+                        </a>
+
+
+    </div>
+    </div>
+    <div id="body">
+        <div id="user_name">
+            <button id="close_btn1">X</button>
+            
+            <h1 style="text-align: center;" >enter name and card number</h1>
+            <label for="username" class="laber-text">inter pationt name</label><br>
+            <input type="text" id="username"  class="user-input1">
+            <br><br>
+            <label for="surname" class="laber-text">inter surname</label><br>
+            <input type="text" name="" id="surname" class="user-input1">
+            <br><br>
+            <label for="cardnumber" class="laber-text">inter car number</label><br>
+            <input type="number" name="cardnumber" id="cardnumber"  class="user-input1">
+            <br><br>
+            <h1 id="text-docter" style="text-align: center; margin-top: -20px;">check it </h1>
+            <button id="docter_add_info">get</button>
+        </div>
+        <div id="add_info">
+            <button id="close_btn2">X</button>
+         <h1 style="text-align: center; margin-top: -20px;">informatiion about pationt</h1>
+            <form>
+              
+                <label for="note" class="name2" style="margin-top: -10px;">Note:</label><br><br>
+                <textarea id="note" name="note" ></textarea><br><br>
+                <input type="submit" value="Submit" id="submit_history" class="submit_docter">
+              </form>
+         </label>
+
+         </form>
+         <form>
+              
+            <label for="note" class="lab" style="margin-top: -10px; margin-left: 50px; font-size: 30px;">lab-prescription</label><br><br>
+            <textarea id="note" name="note" ></textarea><br><br>
+            <input type="submit" value="Submit" id="submit_lab" class="submit_docter">
+          </form>
+     </label>
+     
+     </form>
+     <form>
+              
+        <label for="note" class="lab" style="margin-top: -10px; margin-left: 50px; font-size: 30px;">madicen-prescription</label><br><br>
+        <textarea id="note" name="note" ></textarea><br><br>
+        <input type="submit" value="Submit" id="submit_pharmacy" class="submit_docter">
+      </form>
+ </label>
+ 
+ </form>
+        </div>
+
+
+
+    </div>
+    <div id="right_body">
+        <div class="user-profile" id="userp">
+            <div class="logo">
+                <img src="img/logo.jpg"     alt="logo"  id="logo_left" ">
+                <h2 class="text_rigth">M Group</h2>
+                <p class="text_rigth">Fullstack Web Developer</p>
+            </div>
+        </div>
+        <div class="reminders">
+            <div class="header">
+                <h2 style="font-size: 30px; margin-left: 10px; margin-top: 10px;">Reminders</h2>
+                <span class="material-icons-sharp" id="reminder">
+                    notifications_none
+                </span>
+            </div>
+            <div id="content">
+                <span class="material-icons-sharp" style="background-color: rgb(182, 222, 222); transform: scale(1.5);" >
+                    volume_up
+                </span>
+                <h3 style="margin: -15px 0px 0px 90px;">Workshop</h3>
+                <small class="text_muted">
+                    08:00 AM - 12:00 PM
+                </small>
+                <span class="material-icons-sharp" id="more_vert">
+                    more_vert
+                </span>
+            </div>
+            <div id="work_shop">
+                <span class="material-icons-sharp" style="transform: scale(1.5); background-color: rgb(182, 222, 222);">
+                    edit
+                </span>
+                <h3 style="margin-left: 80px;margin-top: -15px;">Workshop</h3>
+                <small class="text_muted" style="position: relative; top: -20px; left: -10px;">
+                    08:00 AM - 12:00 PM
+                </small>
+               
+               
+                <span class="material-icons-sharp" id="more_vert">
+                    more_vert
+                </span>
+
+            </div>
+            <div id="remindernotify">
+            <span class="material-icons-sharp" style="margin-left: 50px;">
+                add
+            </span>
+            <h3 style="text-align: center;margin-top: -10px; margin-left: 30px;">Add Reminder</h3>
+            </div>
+        
+    </div>
+    <script src="js/docter.js">
+       
+    </script>
+    </div>
+</body>
+</html>

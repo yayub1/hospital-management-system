@@ -1,0 +1,62 @@
+body{
+    text-align: center;
+    display: flex;
+    justify-content: center;}
+#login_container{
+    width: 900px;
+    height: 550px;
+    border: 2px solid rgb(95, 93, 93);
+    position: relative;
+    top: 100px;
+    display: flex;
+    float: right;
+    gap: 50px;
+    background-color: lightsteelblue;
+border-radius: 30px;}
+.dash{
+    height: 500px;
+    width: 200px;
+    border: 1px solid black;
+    margin-top: 25px;
+    margin-left: 50px;
+    font-size: 30px;
+border-radius: 20px;
+z-index: 1;
+
+
+background-color: red;}
+.login_form{
+    height: 500px;
+    width: 600px;
+    border: 1px solid black;
+    display: flex;
+    float: right;
+    justify-content: center;
+    margin-top: 25px;
+   margin-left: -70px;
+ 
+border-radius: 20px 20px 20px 20px;
+background-color: rgb(149, 154, 149);}
+#password_manager,#password_docter,#password_nurse,#password_reception,#password_pharmacy{
+    width: 400px;
+    height: 50px;
+    font-size: 30px;}
+ #username_manager,#username_docter,#username_nurse,#username_reception,#username_pharmacy{
+        width: 400px;
+        height: 50px;
+        font-size: 30px;}
+#manager_login,#docter_login,#nurse_login,#reception_login,#pharmacy_login{
+        width: 100px;
+        height: 40px;}
+#managerdetail,#docterdetail,#nursedetail,#receptiondetail,#pharmacydetail{
+            display: none;
+        margin-top: 30px;}
+#manager,#docter,#nurse,#reception,#pharmacy{
+                transform: scale(1.8);
+            }
+#manager:hover,#docter:hover,#nurse:hover,#reception:hover,#pharmacy:hover{
+                transform: scale(3);
+            }
+input{
+    border-radius: 10px;
+}
